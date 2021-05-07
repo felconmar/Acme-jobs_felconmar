@@ -62,7 +62,7 @@ public class Job extends DomainEntity {
 	protected Money				salary;
 
 	@Range(min = 0, max = 100)
-	//@Digits(integer = 2, fraction = 2)
+	@Digits(integer = 2, fraction = 2)
 	protected double			score;
 
 	@NotBlank
